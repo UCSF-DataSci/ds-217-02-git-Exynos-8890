@@ -1,107 +1,23 @@
-# :wave: The Basics of GitHub 
+# Introduction
 
-## 🤓 Course overview and learning outcomes 
+Hi Christopher,
 
-The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
+I hope this letter find you well. My name is Zairen Zhu in DS217, and this email is for a submitting of assignment 1.
 
-## :octocat: Git and GitHub
+As a brief intro for me, I choose UCSF DEB because I want to be a biostatistician in the future. Previously I obtained bachelor’s degree in Mathematics from ShanghaiTech University, which seems quite resemble to you! Also I am doing a startup project with a small group of developers in LLM domain. Hope to have a chance to talk to you!
 
-Git is a **distributed Version Control System (VCS)**, which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source!
+My GitHub username is: Exynos-8890. I have a repo named UCSF-courses containing data about courses I joined in.
 
-GitHub is a way to use the same power of Git all online with an easy-to-use interface. It’s used across the software world and beyond to collaborate and maintain the history of projects.
+The Python script attached below simply use a for-loop to calculate the sum.
 
-GitHub is home to some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This course starts with the basics of GitHub, but we'll dig into the rest later.
+Regards,
 
-## :octocat: Understanding the GitHub flow 
+Zairen
 
-The GitHub flow is a lightweight workflow that allows you to experiment and collaborate on your projects easily, without the risk of losing your previous work.
+# Link
 
-### Repositories
+[Link to python](https://www.python.org)
 
-A repository is where your project work happens--think of it as your project folder. It contains all of your project’s files and revision history.  You can work within a repository alone or invite others to collaborate with you on those files.
+![screenshot](screenshot_asgn2.png)
 
-### Cloning 
-
-When a repository is created with GitHub, it’s stored remotely in the ☁️. You can clone a repository to create a local copy on your computer and then use Git to sync the two. This makes it easier to fix issues, add or remove files, and push larger commits. You can also use the editing tool of your choice as opposed to the GitHub UI. Cloning a repository also pulls down all the repository data that GitHub has at that point in time, including all versions of every file and folder for the project! This can be helpful if you experiment with your project and then realize you liked a previous version more. 
-To learn more about cloning, read ["Cloning a Repository"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). 
-
-### Committing and pushing
-**Committing** and **pushing** are how you can add the changes you made on your local machine to the remote repository in GitHub. That way your instructor and/or teammates can see your latest work when you’re ready to share it. You can make a commit when you have made changes to your project that you want to “checkpoint.” You can also add a helpful **commit message** to remind yourself or your teammates what work you did (e.g. “Added a README with information about our project”).
-
-Once you have a commit or multiple commits that you’re ready to add to your repository, you can use the push command to add those changes to your remote repository. Committing and pushing may feel new at first, but we promise you’ll get used to it 🙂
-
-## 💻 GitHub terms to know 
-
-### Repositories 
-We mentioned repositories already, they are where your project work happens, but let’s talk a bit more about the details of them! As you work more on GitHub you will have many repositories which may feel confusing at first. Fortunately, your ["GitHub dashboard"](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard) helps to easily navigate to your repositories and see useful information about them. Make sure you’re logged in to see it!
-
-Repositories also contain **README**s. You can add a README file to your repository to tell other people why your project is useful, what they can do with your project, and how they can use it. We are using this README to communicate how to learn Git and GitHub with you. 😄 
-To learn more about repositories read ["Creating, Cloning, and Archiving Repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) and ["About README's"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes). 
-
-### Branches
-You can use branches on GitHub to isolate work that you do not want merged into your final project just yet. Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. Typically, you might create a new branch from the default branch of your repository—main. This makes a new working copy of your repository for you to experiment with. Once your new changes have been reviewed by a teammate, or you are satisfied with them, you can merge your changes into the default branch of your repository.
-To learn more about branching, read ["About Branches"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches).
-
-### Forks
-A fork is another way to copy a repository, but is usually used when you want to contribute to someone else’s project. Forking a repository allows you to freely experiment with changes without affecting the original project and is very popular when contributing to open source software projects!
-To learn more about forking, read ["Fork a repo"](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
-
-### Pull requests
-When working with branches, you can use a pull request to tell others about the changes you want to make and ask for their feedback. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add more changes if need be. You can add specific people as reviewers of your pull request which shows you want their feedback on your changes! Once a pull request is ready-to-go, it can be merged into your main branch.
-To learn more about pull requests, read ["About Pull Requests"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests). 
-
-
-### Issues
-Issues are a way to track enhancements, tasks, or bugs for your work on GitHub. Issues are a great way to keep track of all the tasks you want to work on for your project and let others know what you plan to work on. You can also use issues to tell a favorite open source project about a bug you found or a feature you think would be great to add!
-
-For larger projects, you can keep track of many issues on a project board. GitHub Projects help you organize and prioritize your work and you can read more about them [in this "About Project boards document](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards). You likely won’t need a project board for your assignments, but once you move on to even bigger projects, they’re a great way to organize your team’s work!
-You can also link together pull requests and issues to show that a fix is in progress and to automatically close the issue when someone merges the pull request.
-To learn more about issues and linking them to your pull requests, read ["About Issues"](https://docs.github.com/en/github/managing-your-work-on-github/about-issues). 
-
-### Your user profile
-
-Your profile page tells people the story of your work through the repositories you're interested in, the contributions you've made, and the conversations you've had. You can also give the world a unique view into who you are with your profile README. You can use your profile to let future employers know all about you! 
-To learn more about your user profile and adding and updating your profile README, read ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme). 
-
-### Using markdown on GitHub 
-
-You might have noticed already, but you can add some fun styling to your issues, pull requests, and files. ["Markdown"](https://guides.github.com/features/mastering-markdown/) is an easy way to style your issues, pull requests, and files with some simple syntax. This can be helpful to organize your information and make it easier for others to read. You can also drop in gifs and images to help convey your point!
-To learn more about using GitHub’s flavor of markdown, read ["Basic Writing and Formatting Syntax"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax). 
-
-### Engaging with the GitHub community
-
-The GitHub community is vast. There are many types of people who use GitHub in their day to day—students like you, professional developers, hobbyists working on open source projects, and explorers who are just jumping into the world of software development on their own. There are many ways you can interact with the larger GitHub community, but here are three places where you can start. 
-
-#### Starring repositories 
-
-If you find a repository interesting or you want to keep track of it, star it! When you star a repository it’s also used as a signal to surface better recommendations on github.com/explore. If you’d like to get back to your starred repositories you can do so via your user profile. 
-To learn  more about starring repositories, read ["Saving Repositories with Stars"](https://docs.github.com/en/github/getting-started-with-github/saving-repositories-with-stars). 
-
-#### Following users 
-
-You can follow people on GitHub to receive notifications about their activity and discover projects in their communities. When you follow a user, their public GitHub activity will show up on your dashboard so you can see all the cool things they are working on. 
-To learn more about following users, read ["Following People"](https://docs.github.com/en/github/getting-started-with-github/following-people).
-
-#### Browsing GitHub Explore 
-
-GitHub Explore is a great place to do just that … explore :smile: You can find new projects, events, and developers to interact with.
-
-You can check out the GitHub Explore website [at github.com/explore](https://github.com/explore). The more you interact with GitHub the more tailored your Explore view will be. 
-
-## 📝 Optional next steps 
-
-* Open a pull request and let your teacher know that you’ve finished this course.  
-* Create a new markdown file in this repository. Let them know what you learned and what you are still confused about! Experiment with different styles!
-* Create your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
-* Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
-* [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey? 
-
-## 📚  Resources 
-* [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
-* [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources) 
-* [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-* [How to use GitHub branches](https://www.youtube.com/watch?v=H5GJfcp3p4Q&feature=youtu.be)
-* [Interactive Git training materials](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
-* [GitHub's Learning Lab](https://lab.github.com/)
-* [Education community forum](https://education.github.community/)
-* [GitHub community forum](https://github.community/)
+![memo](data:image/jpeg;base64,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)
